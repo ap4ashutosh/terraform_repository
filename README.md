@@ -1,6 +1,6 @@
 # Infrastructure as Code: Revolutionizing Cloud Deployment 🚀
 
-![revolution](https://giphy.com/gifs/timanderic-tim-and-eric-wareheim-lXu72d4iKwqek)
+![revolution](https://github.com/photosnatcher/photos/blob/main/WhatsApp%20Video%202024-07-04%20at%2023.43.35_1562f02f.mp4)
 
 ## Introduction
 
@@ -106,4 +106,4 @@ The journey to mastering IaC is ongoing, but the benefits are well worth the eff
 
 Ready to dive in? Start exploring the IaC tools that best fit your organization's needs and begin your journey towards more efficient, consistent, and scalable infrastructure management. The future of IT is coded – are you ready to write it?
 
-![Bye Bye](https://giphy.com/embed/t3w9lBdISjBuvPNhTL/video)
+![Bye Bye](https://github.com/photosnatcher/photos/blob/main/WhatsApp%20Video%202024-07-04%20at%2023.45.52_ac4ad43d.mp4)
