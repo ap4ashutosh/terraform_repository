@@ -68,7 +68,7 @@ The IaC landscape offers a variety of tools, each with its strengths and special
 
 It's worth noting that while tools like Puppet, Chef, Ansible, and SaltStack are often mentioned in discussions about infrastructure management, they are primarily configuration management tools. While they can be used in conjunction with IaC tools, their primary focus is on maintaining the state of existing infrastructure rather than provisioning new resources.
 
-![Which Tool to Use](https://media.giphy.com/media/3oz8xDlPPg7DTvhkR6/giphy.gif)
+
 
 ## IaC vs. GUI: Why Make the Switch? 🤔
 
