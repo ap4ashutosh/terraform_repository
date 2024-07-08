@@ -90,3 +90,9 @@ terraform show
 # 4.1 add the state to newstate.json
 terraform show > newstate.json
 ```
+
+Alternatively you can run a terraform state list to list all of the items in Terraform's managed state.
+
+```sh {"id":"01J28KDHVA2374E0B4K3SZ4YHG"}
+terraform state list
+```
