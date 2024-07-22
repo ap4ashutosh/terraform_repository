@@ -12,7 +12,7 @@ terraform {
   }
 }
 provider "random" {
-  
+
 }
 # Taking the azure provider
 provider "azurerm" {
@@ -20,9 +20,9 @@ provider "azurerm" {
 }
 
 resource "random_string" "name" {
-  length = 6
-  upper = false
-  lower = true
+  length  = 6
+  upper   = false
+  lower   = true
   special = false
 }
 
@@ -70,7 +70,7 @@ resource "azurerm_network_interface" "newNIC" {
   ip_configuration {
     name                          = "internal"
     subnet_id                     = azurerm_subnet.subnet1.id
-    private_ip_address_allocation = "Static" 
+    private_ip_address_allocation = "Static"
   }
 }
 
@@ -124,12 +124,12 @@ resource "azurerm_linux_virtual_machine" "newlinuxVM" {
   }
 }
 
-resource "azurerm_storage_account" "new-storage"{
-  name = "azuretfstorage${random_string.name.result}"
-  resource_group_name = azurerm_resource_group.mynewrg.name
-  location = azurerm_resource_group.mynewrg.location
-  account_tier = "Standard"
-  account_replication_type = "LRS"
+resource "azurerm_storage_account" "new-storage" {
+  name                            = "azuretfstorage${random_string.name.result}"
+  resource_group_name             = azurerm_resource_group.mynewrg.name
+  location                        = azurerm_resource_group.mynewrg.location
+  account_tier                    = "Standard"
+  account_replication_type        = "LRS"
   allow_nested_items_to_be_public = true
   tags = {
     terraform = "True"
@@ -137,8 +137,8 @@ resource "azurerm_storage_account" "new-storage"{
 }
 
 resource "azurerm_storage_container" "new-container" {
-  storage_account_name = azurerm_storage_account.new-storage.name
-  name                 = "tfstate"
+  storage_account_name  = azurerm_storage_account.new-storage.name
+  name                  = "tfstate"
   container_access_type = "private"
 }
 
